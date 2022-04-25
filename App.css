@@ -1,0 +1,1619 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&family=Poppins:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: 500;
+    background: #25273E;
+
+}
+.wrapper{
+    max-width: 1350px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+
+}
+.container-1556{
+     max-width: 1556px;
+     margin: 0 auto;
+ }
+.container-1600{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+@font-face {
+    src: url("../src/fonts/HYPER\ BLOCK\ SOLID.otf");
+    font-family:HYPER BLOCK SOLID;
+}
+.hyper-solid-font{
+    font-family:HYPER BLOCK SOLID;
+}
+h1{
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 125px;
+    letter-spacing: 0;
+    font-family:HYPER BLOCK SOLID;
+    text-shadow: 8px 8px #fff, -6px -8px #fff, 8px -9px #fff, -6px 8px #fff;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+}
+h2{
+    font-size: 88px;
+    line-height: 101px;
+    letter-spacing: 0;
+    font-family:HYPER BLOCK SOLID;
+    text-shadow: 8px 8px #fff, -6px -8px #fff, 8px -9px #fff, -6px 8px #fff;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+}
+h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+h4{
+    font-size: 25px;
+    line-height: 29px;
+    font-family: 'Poppins', sans-serif;
+}
+.text-shadow{
+    text-shadow: 8px 8px #fff, -6px -8px #fff, 8px -9px #fff, -6px 8px #fff;
+}
+.text-black-outline{
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+}
+.roadmap-title p{
+    margin-right: auto;
+    margin-left: auto;
+}
+p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.banner-title p{
+    margin-right: auto;
+    margin-left: auto;
+}
+.bg-1BADFF{
+    background: #1BADFF;
+}
+.bg-FFC21B{
+    background: #FFC21B;
+}
+/*HEADER AND BANNER SECTION*/
+.header-banner-con{
+    background: linear-gradient(180deg, rgba(37, 39, 62, 0) 0%, #25273E 100%);
+}
+.header-banner-con:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../src/image/banner-img.png) no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+.header-banner-con:before {
+    content: "";
+    position: absolute;
+    top: 318px;
+    right: 0;
+    width: 319px;
+    height: 320px;
+    background: url(../src/image/about-img5.png) no-repeat center;
+    background-size: cover;
+}
+.header-banner-inner-con:before{
+    content: "";
+    position: absolute;
+    top: 318px;
+    left: 0;
+    width: 319px;
+    height: 320px;
+    background: url(../src/image/about-img1.png) no-repeat center;
+    background-size: cover;
+}
+.banner-con:before{
+    content: "";
+    position: absolute;
+    top: 320px;
+    left: 118px;
+    width: 319px;
+    height: 320px;
+    background: url(../src/image/about-img2.png) no-repeat center;
+    background-size: cover;
+ }
+.banner-con:after{
+    content: "";
+    position: absolute;
+    top: 320px;
+    right: 118px;
+    width: 319px;
+    height: 320px;
+    background: url(../src/image/about-img4.png) no-repeat center;
+    background-size: cover;
+}
+.discord-tag:after {
+    content: "";
+    position: absolute;
+    top: 247px;
+    width: 319px;
+    height: 320px;
+    background: url(../src/image/about-img3.png) no-repeat center;
+    background-size: cover;
+    right: 12px;
+}
+.nav-link{
+    font-size: 28px;
+}
+.contact-btn a{
+    padding: 26px 42px;
+    font-size: 25px;
+    line-height: 29px;
+    font-family:HYPER BLOCK SOLID;
+    display: inline-block;
+    background: #7351FF;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 7px 8px #fff;
+}
+.nav-item {
+    padding: 0 40px;
+}
+.social-icon ul li {
+    padding: 0 5px;
+}
+.contact-btn {
+    margin-left: 30px;
+}
+.navbar{
+    padding: 39px 0;
+}
+.social-icon{
+    margin-left: 19px;
+}
+.banner-con h1:nth-child(2),
+.banner-con h1:nth-child(3),
+.banner-con h1:last-child{
+    margin: 0 0 0 20px;
+}
+.banner-con h1 {
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+}
+.banner-title{
+    margin-bottom: 16px;
+}
+.banner-con{
+    padding-top: 60px;
+    padding-bottom: 92px;
+}
+.discord-tag {
+    background: url(../src/image/discord-tag.png) no-repeat center;
+    background-size: cover;
+    display: inline-block;
+    width: 386px;
+    height: 103px;
+}
+.discord-inner-tag{
+    position: absolute;
+    top: 50%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+}
+.discord-inner-tag figure{
+    padding-right: 13px;
+}
+.banner-con p{
+    margin-bottom: 32px;
+}
+/*HEADER AND BANNER SECTION*/
+/*FAR SECTION*/
+.far-content-con h2{
+    margin-bottom: 18px;
+}
+.far-con::before {
+    content: "";
+    width: 372px;
+    height: 372px;
+    position: absolute;
+    background: #98FFCE;
+    filter: blur(300px);
+    bottom: 0;
+    right: 0;
+}
+.far-content-con p{
+    padding-right: 48px;
+}
+.far-title{
+    margin-bottom: 18px;
+}
+.far-title h2:nth-child(2),
+.far-title h2:nth-child(3),
+.far-title h2:nth-child(4){
+    margin-left: 25px;
+}
+.far-con{
+    padding: 490px 0 140px;
+}
+.far-con:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 452px;
+    background: url(../src/image/nest-img.png) no-repeat center right;
+    background-size: contain;
+    width: 1104px;
+    height: 445px;
+}
+/*FAR SECTION*/
+/*FEATURE SECTION*/
+.feature-con{
+    background: url("../src/image/feature-img.png") no-repeat center;
+    background-size: cover;
+    height: 473px;
+}
+/*FEATURE SECTION*/
+/*TRIPPY SECTION*/
+.trippy-con .row{
+    margin-bottom: 52px;
+}
+.trippy-con::after {
+    content: "";
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    left: 0px;
+    top: 246px;
+    background: #FF6565;
+    filter: blur(300px);
+}
+.trippy-con::before {
+    content: "";
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    right: 0px;
+    bottom: -50px;
+    background: #9B78FF;
+    filter: blur(300px);
+}
+.trippy-con{
+    padding: 130px 0 194px;
+}
+.trippy-title h2:nth-child(2){
+    margin: 0 25px;
+}
+.trippy-title{
+    margin-bottom: 28px;
+}
+/*TRIPPY SECTION*/
+/*FAMILIES SECTION*/
+.families-box-item figure{
+    margin-bottom: 18px;
+}
+.families-box-item figure img{
+    background-image: linear-gradient(180deg, #C246BB 0%, #914ED0 50%, #535AE9 100%);
+    padding: 11px;
+}
+.families-box-item h4{
+    margin-bottom: 10px;
+}
+.families-box-item p{
+    padding: 0 38px;
+}
+.families-con h2{
+    margin-bottom: 118px;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+}
+.families-box-con .row{
+    margin-bottom: 45px;
+}
+.families-con{
+    padding-bottom: 121px;
+}
+/*FAMILIES SECTION*/
+/*join-con*/
+.join-con{
+    background: #444661;
+    padding: 106px 0;
+}
+.join-con h2{
+    margin-bottom: 40px;
+}
+.join-con p{
+    margin-bottom: 55px;
+}
+.join-btn a{
+    padding: 18px 32px 17px 33px;
+    background: #25273E;
+    color: #fff;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
+    text-decoration: none;
+    font-family: 'Exo', sans-serif;
+    display: inline-block;
+}
+.join-btn a figure {
+    margin-right: 14px;
+}
+.join-inner-con{
+    width: 61%;
+    margin: 0 auto;
+}
+.join-inner-con h2:nth-child(2){
+    margin-left: 12px;
+}
+.join-title{
+    margin-bottom: 42px;
+}
+/*join-con*/
+/**** faq section ***/
+.faq-con .wrapper{
+    padding: 310px 0 560px;
+}
+.faq-inner-con:after,
+.faq-content-con:after{
+    content: "";
+    position: absolute;
+    width: 372px;
+    height: 372px;
+    left: 0px;
+    top: 50%;
+    background: #AAFFF0;
+    filter: blur(300px);
+}
+.faq-content-con:after{
+    left: auto;
+    right: 0;
+}
+.faq-con h2{
+    margin-bottom: 116px;
+}
+.faq-inner-con .card-header{
+    background: #303350;
+    border-radius:0;
+}
+.faq-inner-con .card-header button {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 27px;
+    color: #fff;
+    font-weight: 700;
+    padding: 45px 86px 46px 86px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+}
+.faq-inner-con .card-header button:focus{
+    outline: none;
+}
+.faq-inner-con .card{
+    margin-bottom: 26px;
+}
+.faq-inner-con .card-body{
+    background: #303350;
+    padding: 45px 86px 46px 86px;
+}
+.faq-inner-con .card-header button.collapsed:after,
+.faq-inner-con .card-header button:not(.collapsed):after{
+     content: "\f0d7";
+     position: absolute;
+     right: 86px;
+     top: 44px;
+     font-family: "Font Awesome 5 free";
+    transition: 0.6s ease-in-out;
+ }
+.faq-inner-con .card-header button:not(.collapsed):after{
+    transform: rotate(180deg);
+}
+.faq-tittle{
+    margin-bottom: 80px;
+}
+.faq-tittle:before{
+    content: "";
+    width: 349px;
+    height: 430px;
+    background: url(../src/image/faq-img.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left: -181px;
+    top: -194px;
+}
+.faq-con:before{
+    content: "";
+    position: absolute;
+    background: url(../src/image/ston-img.png) no-repeat center;
+    background-size: cover;
+    width: 595px;
+    height: 491px;
+    bottom: 0;
+    left: 0;
+}
+.faq-con:after{
+    content: "";
+    position: absolute;
+    background: url(../src/image//faq-des-r-img.png) no-repeat center;
+    background-size: cover;
+    width: 438px;
+    height: 438px;
+    bottom: 0;
+    right: 0;
+}
+.faq-inner-con:before{
+    content: "";
+    position: absolute;
+    background: url(../src/image/faq-hand-img.png) no-repeat center;
+    background-size: cover;
+    width: 754px;
+    height: 448px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.faq-tittle h2:nth-child(2){
+    margin-left:25px;
+}
+/**** faq section ***/
+/*******join section********/
+.join-title:after{
+    content: "";
+    background: url(../src/image/star-img.png) no-repeat top right;
+    background-size: cover;
+    width: 104px;
+    height: 105px;
+    position: absolute;
+    top: -11px;
+    right: 172px;
+}
+.join-inner-con:after {
+    content: "";
+    width: 435px;
+    height: 624px;
+    background: url(../src/image/hand-img.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: -106px;
+    left: -562px;
+}
+/*******join section********/
+/*families section*/
+.families-con:after {
+    content: "";
+    width: 262px;
+    height: 313px;
+    background: url(../src/image/family-frame-img1.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.families-con:before {
+    content: "";
+    width: 284px;
+    height: 288px;
+    background: url(../src/image/family-frame-img2.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: 164px;
+    right: 0;
+    z-index: -1;
+}
+.families-title{
+    margin-bottom: 116px;
+}
+.families-title h2:nth-child(2){
+    margin: 0 12px;
+}
+.families-inner-con:after,
+.families-inner-con:before,
+.box-sahdow:after{
+    content: "";
+    width: 372px;
+    height: 372px;
+    position: absolute;
+    top: 321px;
+    left: 0;
+    background: rgba(40, 203, 255, 0.71);
+    filter: blur(300px);
+}
+.families-inner-con:after{
+    top: auto;
+    bottom: 0;
+    background: #7CC784;
+    filter: blur(300px);
+}
+.box-sahdow:after{
+    right: 0;
+    left: auto;
+    bottom: 0;
+    top: auto;
+    background: #FF68AB;
+    filter: blur(300px);
+}
+/*families section*/
+/*******roadmap section********/
+.skill-inner-bar{
+    width: 200px;
+    height: 200px;
+}
+.circle-wrap {
+    width: 210px;
+    height: 128px;
+}
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: 185px;
+    height: 185px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 0;
+}
+.circle-wrap .circle .mask {
+    clip: rect(3px, 106px, 141px, 43px);
+}
+.circle-wrap .circle .mask .fill {
+    clip: rect(0px, 67px, 135px, 0px);
+    border:10px solid #fff;
+}
+.circle-wrap.firstPercentage .circle .mask.full,
+.circle-wrap.firstPercentage .circle .fill {
+    animation: firstPercentage ease-in-out 4s forwards;
+}
+.circle-wrap.secondPercentage .circle .mask.full,
+.circle-wrap.secondPercentage .circle .fill {
+    animation: secondPercentage ease-in-out 4s forwards;
+}
+.circle-wrap.thirdPercentage .circle .mask.full,
+.circle-wrap.thirdPercentage .circle .fill {
+    animation: thirdPercentage ease-in-out 4s forwards;
+}
+@keyframes firstPercentage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(160deg);
+    }
+}
+@keyframes secondPercentage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(140deg);
+    }
+}
+@keyframes thirdPercentage {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(30deg);
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.skill-bar h4,.skill-bar span{
+    font-size: 50px;
+    font-weight: 700;
+}
+.roadmap-shedow:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 514px;
+    height: 3000px;
+    background: url(../src/image/roadmap-shedow-img2.png) no-repeat top left;
+    background-size: contain;
+    z-index: -1;
+}
+.roadmap-shedow:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 514px;
+    height: 3000px;
+    background: url(../src/image/roadmap-shedow-img1.png) no-repeat top left;
+    background-size: contain;
+    z-index: -1;
+}
+.roadmap-title figure{
+    margin-bottom: 61px;
+}
+.roadmap-title p{
+    margin-bottom: 150px;
+}
+.roadmap-box-con .roadmap-box:nth-child(even) .roadmap-box-title{
+    width: 75%;
+    margin-left: 0;
+    padding-right: 0;
+    text-align: end;
+}
+.roadmap-box-con .roadmap-box:last-child{
+    margin-bottom: 0;
+}
+.roadmap-con{
+    margin-bottom: 120px    ;
+}
+.roadmap-con:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url(../src/image/roadmap-bg-img.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.roadmap-img-con:after{
+    content: "";
+    width: 199px;
+    height: 374px;
+    background: url(../src/image/open-egg.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    bottom: 0%;
+    right: 0;
+    z-index: -1;
+}
+.roadmap-con:before{
+    content: "";
+    width: 467px;
+    height: 493px;
+    background: url(../src/image/nest-img2.png) no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: 383px;
+    z-index: -1;
+    right: 0;
+}
+.roadmap-box-con .roadmap-box:nth-child(2n) .roadmap-box-title {
+    width: 75%;
+    margin-left: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: end;
+  }
+  .float-right{
+      float: right;
+  }
+.roadmap-box{
+    background: rgba(196, 196, 196, 0.1);
+    box-shadow: inset 39.7667px -39.7667px 39.7667px rgba(149, 149, 149, 0.1), inset -39.7667px 39.7667px 39.7667px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(79.5333px);
+    padding: 18px 0 21px 0;
+    width: 81.2%;
+    margin-bottom: 54px !important;
+}
+.roadmap-box-static{
+    width: 202px;
+    height: 202px;
+    border-radius: 100%;
+}
+.roadmap-box-title{
+    margin-left: 30px;
+    padding-right: 34px;
+}
+.roadmap-box-title h3 {
+    margin-bottom: 16px;
+    margin-top: 18px;
+}
+.roadmap-inner-con:after{
+    content: "";
+    position: absolute;
+    bottom: 27%;
+    right: 0;
+    width: 388px;
+    background: url(../src/image/eag-img2.png) no-repeat center;
+    height: 510px;
+    background-size: contain;
+    z-index: -1;
+}
+.roadmap-inner-con:before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 333px;
+    height: 1604px;
+    background: url(../src/image/eag-img.png) no-repeat center;
+}
+.roadmap-title h2,
+.join-title h2{
+    margin-bottom: 50px;
+}
+/*******roadmap section********/
+
+@media screen and (max-width: 1600px){
+    .wrapper,
+    .container-1556,
+    .faq-con .wrapper{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .roadmap-con .wrapper{
+        padding: 0 6% !important;
+    }
+    .discord-tag:after {
+        width: 250px;
+        height: 250px;
+        right: 70px;
+    }
+    .roadmap-con:before {
+        width: 286px;
+        height: 300px;
+    }
+    h1 {
+        font-size: 70px;
+        line-height: 115px;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+    h2 {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .navbar {
+        padding: 30px 0;
+    }
+    .nav-item {
+        padding: 0 28px;
+    }
+    .contact-btn a {
+        padding: 22px 38px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .banner-con {
+        padding-top: 30px;
+        padding-bottom: 54px;
+    }
+    body {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .discord-tag {
+        background-size: contain;
+        width: 300px;
+        height: 90px;
+    }
+    .banner-con:before,
+    .discord-tag:after,
+    .header-banner-inner-con:before,
+    .header-banner-con:before,
+    .banner-con:after{
+        width: 200px;
+        height: 200px;
+    }
+    .banner-con:before{
+        left: 220px;
+    }
+    .banner-con:after{
+        right: 230px;
+    }
+    .discord-tag:after{
+        top: 150px;
+        right: 48px;
+    }
+    .discord-inner-tag figure {
+        padding-right: 0px;
+    }
+    .far-con {
+        padding: 345px 15px 120px;
+    }
+    .far-con:after {
+        width: 900px;
+        height: 280px;
+    }
+    .trippy-title {
+        margin-bottom: 14px;
+    }
+    .trippy-con .row {
+        margin-bottom: 34px;
+    }
+    .trippy-con {
+        padding: 100px 15px 122px;
+    }
+    .families-box-item h4 {
+        margin-bottom: 6px;
+    }
+    .families-box-item p {
+        padding: 0 30px;
+    }
+    .families-title {
+        margin-bottom: 80px;
+    }
+    .families-con:after {
+        width: 200px;
+        height: 200px;
+        top: -45px;
+    }
+    .families-con:before{
+        width: 200px;
+        height: 200px;
+    }
+    .roadmap-title h2, .join-title h2 {
+        margin-bottom: 34px;
+    }
+    .roadmap-title img{
+        width: 300px;
+    }
+    .roadmap-title figure {
+        margin-bottom: 26px;
+    }
+    .roadmap-title p {
+        margin-bottom: 80px;
+    }
+    .roadmap-box-static {
+        width: 180px;
+        height: 180px;
+    }
+    .skill-bar h4, .skill-bar span {
+        font-size: 40px;
+    }
+    .circle-wrap .circle .mask, .circle-wrap .circle .fill {
+        width: 177px;
+        height: 184px;
+    }
+    .roadmap-box-title h3 {
+        margin-bottom: 6px;
+    }
+    .roadmap-con:before {
+        width: 230px;
+        height: 230px;
+        background-size: contain;
+        top: 199px;
+    }
+    .roadmap-inner-con:before {
+        left: 0;
+        height: 1090px;
+        background-size: contain;
+        width: 226px;
+    }
+    .roadmap-inner-con:after {
+        bottom: -159%;
+        right: 0;
+        width: 232px;
+        height: 300px;
+        background-size: contain;
+    }
+    .join-inner-con:after {
+        width: 435px;
+        height: 347px;
+        background-size: contain;
+        bottom: -70px;
+        left: -343px;
+    }
+    .join-title {
+        margin-bottom: 22px;
+    }
+    .join-title {
+        margin-bottom: 22px;
+    }
+    .join-btn a {
+        padding: 14px 26px 14px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .join-title:after {
+        width: 104px;
+        height: 68px;
+        top: -11px;
+        right: 290px;
+        background-size: contain;
+    }
+    .join-con {
+        padding: 70px 0;
+    }
+    .faq-con .wrapper {
+        padding: 150px 0 400px;
+    }
+    .faq-tittle:before {
+        width: 221px;
+        height: 305px;
+        background-size: contain;
+        left: 54px;
+        top: -92px;
+    }
+    .faq-inner-con .card-header button,
+    .faq-inner-con .card-body{
+        font-size: 16px;
+        padding: 32px 50px;
+    }
+    .faq-inner-con .card-header button.collapsed:after, .faq-inner-con .card-header button:not(.collapsed):after {
+        top: 32px;
+    }
+    .faq-inner-con:before {
+        background-size: contain;
+        width: 385px;
+        height: 215px
+    }
+    .faq-con:after {
+        background-size: contain;
+        width: 346px;
+        height: 248px;
+        bottom: 0;
+        right: 0;
+    }
+    .faq-con:before {
+        background-size: contain;
+        width: 382px;
+        height: 315px;
+        bottom: 0;
+        left: 0;
+    }
+    .far-content-con p {
+        padding-right: 0;
+    }
+    .families-con {
+        padding-bottom: 70px;
+    }
+    .faq-inner-con:after, .faq-content-con:after {
+        width: 300px;
+        height: 148px;
+    }
+}
+@media screen and (max-width: 1199px){
+    body {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .families-title {
+        margin-bottom: 50px;
+    }
+    .families-con:before {
+        width: 170px;
+        height: 170px;
+    }
+    .families-con:after {
+        width: 141px;
+        height: 170px;
+        background-size: contain;
+        top: -57px;
+    }
+    .roadmap-title h2, .join-title h2 {
+        margin-bottom: 24px;
+    }
+    .roadmap-title figure {
+        margin-bottom: 20px;
+    }
+    .roadmap-title p {
+        margin-bottom: 48px;
+    }
+    .roadmap-title img {
+        width: 280px;
+    }
+    .families-box-item figure {
+        margin-bottom: 10px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .families-box-item p {
+        padding: 0 9px;
+    }
+    .nav-item {
+        padding: 0 14px;
+    }
+    .contact-btn a {
+        padding: 18px 30px;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .banner-con {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .far-con {
+        padding: 300px 15px 80px;
+    }
+    h2 {
+        font-size: 50px;
+        line-height: 70px;
+        letter-spacing: 3px;
+    }
+    .far-title h2:nth-child(2), .far-title h2:nth-child(3), .far-title h2:nth-child(4) {
+        margin-left: 14px;
+    }
+    h1 {
+        font-size: 63px;
+        line-height: 84px;
+    }
+    .banner-con p {
+        margin-bottom: 22px;
+    }
+    .discord-tag {
+        background-size: contain;
+        width: 275px;
+    }
+    .discord-inner-tag img{
+        width: 25px;
+    }
+    .banner-con:before, .discord-tag:after, .header-banner-inner-con:before, .header-banner-con:before, .banner-con:after {
+        width: 175px;
+        height: 175px;
+    }
+    .banner-con:before {
+        left: 168px;
+    }
+    .banner-con:after {
+        right: 170px;
+    }
+    .far-con:after {
+        width: 860px;
+        height: 230px;
+    }
+    .trippy-con {
+        padding: 90px 15px 100px;
+    }
+    .roadmap-box-title {
+        margin-left: 170px;
+        padding-right: 24px;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .roadmap-box-static {
+        width: 150px;
+        height: 150px;
+    }
+    .skill-inner-bar {
+        width: 150px;
+        height: 150px;
+    }
+    .skill-bar h4, .skill-bar span {
+        font-size: 34px;
+    }
+    .roadmap-con:before {
+        width: 162px;
+        height: 170px;
+        top: 177px;
+    }
+    .roadmap-inner-con:before {
+        height: 975px;
+        width: 206px;
+    }
+    .faq-tittle:before {
+        width: 164px;
+        height: 264px;
+    }
+    .faq-tittle {
+        margin-bottom: 50px;
+    }
+    .faq-con:before {
+        width: 326px;
+        height: 269px;
+    }
+    .faq-inner-con:before {
+        width: 300px;
+        height: 178px;
+    }
+    .faq-con:after {
+        width: 203px;
+        height: 200px;
+    }
+    .faq-con .wrapper {
+        padding: 125px 0 330px;
+    }
+    .join-inner-con:after {
+        width: 380px;
+        height: 252px;
+        left: -304px;
+    }
+    .join-con p {
+        margin-bottom: 30px;
+    }
+    .join-title {
+        margin-bottom: 16px;
+    }
+    .join-title:after {
+        width: 85px;
+        height: 55px;
+        top: -12px;
+        right: 290px;
+    }
+    .join-btn a {
+        padding: 11px 21px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .roadmap-img-con:after {
+        width: 142px;
+        height: 295px;
+        background-size: contain;
+    }
+    .roadmap-con .wrapper {
+        padding: 0 11% !important;
+    }
+    .skill-bar h4, .skill-bar span {
+        font-size: 28px;
+    }
+    .text-shadow {
+        text-shadow: 4px 4px #fff, -6px -4px #fff, 4px -4px #fff, -6px 4px #fff;
+    }
+
+}
+@media screen and (max-width: 991px){
+    h1 {
+        letter-spacing: 2px;
+        font-size: 56px;
+        line-height: 70px;
+    }
+    .banner-con p {
+        margin-bottom: 16px;
+    }
+    .discord-tag {
+        width: 254px;
+    }
+    .banner-con:before, .discord-tag:after, .header-banner-inner-con:before, .header-banner-con:before, .banner-con:after {
+        width: 150px;
+        height: 150px;
+    }
+    .banner-con:before {
+        left: 142px;
+    }
+    .banner-con:after {
+        right: 138px;
+    }
+    .discord-tag:after {
+        top: 172px;
+        right: 50px;
+    }
+    .navbar {
+        padding: 22px 0;
+    }
+    .far-con {
+        padding: 280px 15px 78px;
+    }
+    .far-content-con img {
+        width: 400px;
+        margin-bottom: 15px;
+    }
+    .trippy-con{
+        text-align: center;
+    }
+    .trippy-con {
+        padding: 60px 15px;
+    }
+    .trippy-con .row {
+        margin-bottom: 20px;
+    }
+    .far-con:after {
+        width: 860px;
+        height: 170px;
+        top: 22%;
+    }
+    h2 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .families-box-item{
+        margin-bottom: 15px;
+    }
+    .families-box-con .row {
+        margin-bottom: 15px;
+    }
+    .families-con:after {
+        width: 120px;
+        height: 170px;
+    }
+    .families-title {
+        margin-bottom: 34px;
+    }
+    .families-con:before {
+        width: 150px;
+    }
+    .families-box-item img{
+        width: 250px;
+        height: 250px;
+    }
+    .families-con {
+        padding-bottom: 50px;
+    }
+    .roadmap-title h2, .join-title h2 {
+        margin-bottom: 20px;
+    }
+    .roadmap-title img {
+        width: 262px;
+    }
+    .roadmap-title p {
+        margin-bottom: 32px;
+    }
+    .join-title:after {
+        width: 80px;
+        height: 50px;
+        right: 162px;
+    }
+    .join-title {
+        margin-bottom: 14px;
+    }
+    .join-con p {
+        margin-bottom: 22px;
+    }
+    .join-btn a {
+        padding: 10px 17px;
+        font-size: 18px;
+    }
+    .join-btn a figure {
+        margin-right: 5px;
+    }
+    .join-inner-con:after {
+        width: 346px;
+        height: 212px;
+        left: -264px;
+    }
+    .join-con {
+        padding: 58px 0;
+    }
+    .faq-tittle:before {
+        width: 100px;
+        height: 242px;
+        left: 20px;
+    }
+    .faq-tittle {
+        margin-bottom: 35px;
+    }
+    .faq-inner-con .card-header button, .faq-inner-con .card-body {
+        padding: 26px 32px;
+        font-size: 14px;
+    }
+    .faq-inner-con .card {
+        margin-bottom: 20px;
+    }
+    .faq-con:before {
+        width: 260px;
+        height: 215px;
+    }
+    .faq-inner-con:before {
+        width: 250px;
+        height: 148px;
+    }
+    .faq-con:after {
+        width: 176px;
+        height: 176px;
+    }
+    .faq-con .wrapper {
+        padding: 120px 0 275px;
+    }
+    .roadmap-box {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .navbar-collapse{
+        position: absolute;
+        background: #25273e;
+        width: 100%;
+        z-index: 1;
+        top: 68px;
+        padding: 20px;
+    }
+    .nav-link {
+        font-size: 24px;
+    }
+    .nav-item {
+        padding: 5px 0 !important;
+    }
+    .social-icon {
+        margin-left: 0;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+    .contact-btn {
+        margin-left: 0;
+    }
+    .contact-btn a {
+        padding: 14px 24px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .navbar button{
+        background: #25273e;
+    }
+    .navbar button:focus{
+        outline: none;
+    }
+    .navbar-light .navbar-toggler-icon {
+        filter: invert(1);
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    body {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .roadmap-box-con .roadmap-box:nth-child(even) .roadmap-box-title {
+        width: 72%;
+    }
+    .skill-bar h4, .skill-bar span {
+        font-size: 24px;
+    }
+    .roadmap-box-static {
+        width: 140px;
+        height: 140px;
+    }
+    .roadmap-con .wrapper {
+        padding: 0 15% !important;
+    }
+    .roadmap-con {
+        margin-bottom: 70px;
+    }
+    .social-icon img {
+        width: 25px;
+        height: 25px;
+    }
+    .text-shadow {
+        text-shadow: 4px 4px #fff, -5px -4px #fff, 3.5px -4px #fff, -5px 4px #fff;
+    }
+    .roadmap-img-con::after {
+        bottom: -520%;
+    }
+    .roadmap-inner-con::after {
+        bottom: -247%;
+        width: 134px;
+        height: 262px;
+    }
+    .roadmap-inner-con::before {
+        height: 850px;
+        width: 176px;
+    }
+    .roadmap-inner-con::before {
+        height: 724px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 767px){
+    .far-con::before,.trippy-con::after,.trippy-con::before,.families-inner-con::before {
+        width: 294px;
+        height: 188px;
+        filter: blur(110px);
+    }
+    .trippy-con::after{
+        top: 50px;
+    }
+    h1 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .text-black-outline{
+        -webkit-text-stroke-width: 3px;
+    }
+    .banner-con h1:nth-child(2), .banner-con h1:nth-child(3), .banner-con h1:last-child {
+        margin: 0 0 0 15px;
+    }
+    .discord-tag {
+        width: 220px;
+    }
+    .discord-inner-tag img {
+        width: 20px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .banner-con:before, .discord-tag:after, .header-banner-inner-con:before, .header-banner-con:before, .banner-con:after {
+        width: 140px;
+        height: 140px;
+    }
+    .discord-tag:after{
+        display: none;
+    }
+    .banner-con:before {
+        left: 130px;
+    }
+    .banner-con:after {
+        right: 130px;
+    }
+    .far-con:after {
+        width: 500px;
+        height: 105px;
+        top: 25%;
+    }
+    .far-title h2:nth-child(2), .far-title h2:nth-child(3), .far-title h2:nth-child(4) {
+        margin-left: 15px;
+    }
+    .far-title {
+        margin-bottom: 12px;
+    }
+    .trippy-title h2:nth-child(2) {
+        margin: 0 10px;
+    }
+    .faq-tittle h2:nth-child(2) {
+        margin-left: 12px;
+    }
+    .far-con {
+        padding: 260px 15px 58px;
+    }
+    .far-content-con img {
+        width: 300px;
+    }
+    .families-con:after {
+        width: 90px;
+        height: 122px;
+    }
+    .families-con:before {
+        width: 100px;
+        background-size: contain;
+    }
+    .families-con {
+        padding-bottom: 34px;
+    }
+    .roadmap-title img {
+        width: 240px;
+    }
+    .join-title:after {
+        width: 58px;
+        height: 37px;
+        right: 52px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 54px;
+    }
+    .faq-tittle:before {
+        width: 80px;
+        height: 242px;
+        left: 8px;
+    }
+    .faq-inner-con .card-header button, .faq-inner-con .card-body {
+        padding: 20px 26px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .faq-con:before {
+        width: 205px;
+        height: 169px;
+    }
+    .faq-inner-con:before {
+        width: 200px;
+        height: 118px;
+    }
+    .faq-con:after {
+        width: 150px;
+        height: 146px;
+    }
+    .faq-con .wrapper {
+        padding: 80px 0 215px;
+    }
+    .faq-inner-con .card-header button.collapsed:after, .faq-inner-con .card-header button:not(.collapsed):after {
+        top: 19px;
+        right: 44px;
+    }
+    .feature-con {
+        height: 290px;
+    }
+    .families-box-item img {
+        width: 230px;
+        height: 230px;
+    }
+    .roadmap-box-title {
+        margin-left: 0;
+        padding-right: 0;
+    }
+    .roadmap-box-static {
+        float: none !important;
+        margin: 0 auto;
+    }
+    .roadmap-box {
+        padding: 20px;
+        text-align: center;
+    }
+    .roadmap-box-con .roadmap-box:nth-child(even) .roadmap-box-title {
+        width: 100%;
+        text-align: center;
+        float: none !important;
+    }
+    .roadmap-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .roadmap-box-title{
+        order: 2;
+    }
+    .roadmap-shedow:before {
+        width: 368px;
+        height: 2000px;
+    }
+
+    }
+@media screen and (max-width: 575px){
+    h1 {
+        font-size:25px;
+        line-height: 40px;
+        letter-spacing: 3px;
+    }
+    .far-title h2:nth-child(2), .far-title h2:nth-child(3), .far-title h2:nth-child(4) {
+        margin-left: 10px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 46px;
+    }
+    .roadmap-inner-con::before,.roadmap-img-con::after,.roadmap-inner-con::after,.far-con:after,.faq-tittle:before,.faq-inner-con:before,.join-inner-con:after,.banner-con:before, .discord-tag:after, .header-banner-inner-con:before, .header-banner-con:before, .banner-con:after{
+        display: none;
+    }
+    .navbar {
+        padding: 15px 0;
+    }
+    .banner-con p {
+        margin-bottom: 8px;
+    }
+    .discord-tag {
+        width: 204px;
+    }
+    .far-con {
+        padding: 22px 0 50px;
+    }
+    .feature-con {
+        height: 130px;
+    }
+    .far-content-con img {
+        width: 236px;
+    }
+    .families-con {
+        padding-bottom: 30px;
+    }
+    .join-title:after {
+        width: 30px;
+        height: 28px;
+        right: 16px;
+    }
+    .join-con {
+        padding: 30px 0;
+    }
+    .join-inner-con {
+        width: 100%;
+    }
+
+    .faq-con:after {
+        width: 118px;
+        height: 122px;
+    }
+    .text-shadow {
+        text-shadow: 1px 2px #fff, -5px -2px #fff, 3px -2px 0px #fff, -5px 2px #fff;
+    }
+    .text-black-outline,.banner-con h1 {
+        -webkit-text-stroke-width: 2px;
+    }
+}
